@@ -1,0 +1,6 @@
+kafka:
+    bootstrap_servers: "localhost:9092"
+    topic: "my-topic"
+    group_id: "learn-kafka"
+    retries: 5
+    auto_offset_reset: "earliest"
